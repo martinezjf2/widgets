@@ -15,7 +15,9 @@ const items = [
         title: 'How do you use React?',
         content: 'You use React by creating components'
     }
-]
-export default () => {
+];
+
+
+export default function App() {
     return <div><Accordion items={items}/></div>
 }
