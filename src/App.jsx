@@ -1,5 +1,6 @@
 import React from 'react';
-import Accordion from './Accordion'
+import Search from './Search'
+// import Accordion from './Accordion'
 // eslint-disable-next-line
 
 const items = [
@@ -19,5 +20,6 @@ const items = [
 
 
 export default function App() {
-    return <div><Accordion items={items}/></div>
+    return <div><Search /></div>
+    // <div><Accordion items={items}/></div>
 }
