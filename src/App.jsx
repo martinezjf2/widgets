@@ -1,8 +1,9 @@
+
 import React from 'react';
 import Search from './Search'
 // import Accordion from './Accordion'
-// eslint-disable-next-line
 
+// eslint-disable-next-line
 const items = [
     {
         title: 'What is React?',
